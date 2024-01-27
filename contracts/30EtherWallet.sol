@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.10;
 
 contract EtherWallet {
     address payable public owner;
 
     constructor() {
-        owner = msg.sender;
+        owner = payable(msg.sender);
     }
 
     function withdraw(uint _amount) external {
