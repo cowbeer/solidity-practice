@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.10;
 
 // 合约地址生成方式：
 // create: keccak256(senderAddress, nonce)，每次部署后，合约地址会改变

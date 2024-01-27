@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.10;
 
 // 也可以定义在合约外面，也可以从其他合约导入
 error InvalidAmount();
