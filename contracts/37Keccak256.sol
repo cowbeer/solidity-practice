@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.10;
 
 contract Keccak256 {
     function hash(string memory text, uint num, address addr) external pure returns (bytes32) {

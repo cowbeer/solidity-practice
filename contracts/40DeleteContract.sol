@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.10;
 
 /*
 selfdestruct:
@@ -7,9 +7,7 @@ delete contract
 force send Ether to any address
 */
 contract Kill {
-    constructor() payable {
-
-    }
+    constructor() payable {}
 
     function kill() external {
         // 把即将销毁的合约的全部余额转给msg.sender
