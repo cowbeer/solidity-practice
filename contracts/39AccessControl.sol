@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.20;
 
 contract AccessControl {
     bytes32 private constant ADMIN = keccak256(abi.encodePacked("ADMIN"));

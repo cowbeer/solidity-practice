@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.20;
 
 contract Constants {
     // 对于永远不会变的状态变量就定义为常量

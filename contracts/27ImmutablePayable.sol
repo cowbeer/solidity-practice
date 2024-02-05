@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.20;
 
 contract Immutable {
     // immutable变量只能在合约部署时被初始化一次

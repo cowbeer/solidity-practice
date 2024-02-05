@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.20;
 
 // 可以从其他合约导入
 import { Unauthorized, helper as h1 } from "./Sol.sol";

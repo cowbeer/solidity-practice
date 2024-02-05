@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.20;
 
 interface IERC721 {
     function transferFrom(address _from, address _to, uint _nftID) external;
