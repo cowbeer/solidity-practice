@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
 contract CallFuncWithKeyValue {
     function someFuncWithManyInputs(uint x, uint y, uint z, address a, bool b, string memory c) public pure returns(uint) {
